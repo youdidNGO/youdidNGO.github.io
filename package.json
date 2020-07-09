@@ -1,0 +1,23 @@
+{
+  "name": "youdid",
+  "version": "1.0.0",
+  "description": "Youdid Website",
+  "main": "index.js",
+  "dependencies": {
+    "firebase-tools": "^8.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youdidNGO/youdidNGO.github.io.git"
+  },
+  "author": "Vamshi Prasad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youdidNGO/youdidNGO.github.io/issues"
+  },
+  "homepage": "https://github.com/youdidNGO/youdidNGO.github.io#readme"
+}
