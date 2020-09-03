@@ -38,7 +38,8 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Team</a></li>
                     <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li> -->
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link Butto js-scroll-trigger" href="https://forms.gle/J695DP99Sx34i2NR7" target="_blank">Apply Here<br></a></li>
+                    <li class="nav-item"><a class="nav-link Butto js-scroll-trigger"
+                            href="https://forms.gle/J695DP99Sx34i2NR7" target="_blank">Apply Here<br></a></li>
                 </ul>
             </div>
         </div>
@@ -55,11 +56,12 @@
                 <div class="col-lg-8 align-self-baseline">
                     <p class="text-white-75 font-weight-light mb-5">Youth Undertaking Developed India Dream
                     </p>
-                    <a class="btn btn-primary btn-xl js-scroll-trigger" href="https://blog.youdid.ml/" target="_blank">READ OUR BLOG</a>
+                    <a class="btn btn-primary btn-xl js-scroll-trigger" href="https://blog.youdid.ml/"
+                        target="_blank">READ OUR BLOG</a>
                 </div>
                 <div class="col-lg-8 align-self-baseline">
-                    
-                    <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about" target="_blank">ABOUT US!</a>
+
+                    <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">ABOUT US!</a>
                 </div>
             </div>
         </div>
@@ -226,13 +228,31 @@
             </div>
         </div>
     </div>
-    <!-- <-- Call to action->
+    <!-- Call to action-->
     <section class="page-section bg-dark text-white">
-        <--  <div class="container text-center">
+        <!-- <--  <div class="container text-center">
             <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
             <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
-        </div> --
-    </section> -->
+        </div> -- -->
+        <div class="container h-100">
+            <div class="row h-100 align-items-center justify-content-center text-center">
+
+                <div class="col-lg-8 align-self-baseline">
+                    <center>
+                        <div class="col-lg-10 align-self-end">
+                            <h1 class="text-uppercase text-white font-weight-bold">Interested in being a part of our
+                                NGO?
+                            </h1>
+                            <hr class="divider my-4" />
+                        </div>
+                    </center>
+                    <a class="btn btn-primary btn-xl js-scroll-trigger" href="https://forms.gle/J695DP99Sx34i2NR7"
+                        target="_blank">APPLY HERE!</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
     <!-- Contact-->
     <section class="page-section" id="contact">
         <div class="container">
@@ -308,7 +328,7 @@
             try {
                 let app = firebase.app();
                 let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[
-                    feature] ===
+                        feature] ===
                     'function');
                 document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
             } catch (e) {
