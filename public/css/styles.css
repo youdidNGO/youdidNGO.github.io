@@ -78,6 +78,15 @@ body {
   text-align: left;
   background-color: #fff;
 }
+.boxed {
+  border:100px solid white;
+}
+
+.border-box{
+  border:1px solid white;
+  border-radius: 20px;
+  padding: 3vw;
+}
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
@@ -10979,7 +10988,10 @@ hr.light {
   border: none;
   border-radius: 10rem;
 }
-
+.pageeee{
+  
+  padding: 2rem 0;
+}
 .page-section {
   padding: 8rem 0;
 }
