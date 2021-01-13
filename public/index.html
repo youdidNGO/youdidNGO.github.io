@@ -20,6 +20,13 @@
     <!-- Third party plugin CSS-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
         rel="stylesheet" />
+
+
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
 </head>
@@ -158,7 +165,12 @@
         <div class="container">
             <h2 class="text-center text-white mt-0">Our Awards and Achievemets</h2>
             <hr class="divider my-4 light" />
-            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li><!-- 
+                  <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                  <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li> -->
+                </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img src="assets/img/Awards/NGOOfTheYear.jpg" class="d-block w-100" alt="...">
@@ -170,13 +182,13 @@
                     <img src="..." class="d-block w-100" alt="...">
                   </div> -->
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-bs-slide="prev">
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <!-- <span class="visually-hidden">Previous</span> -->
+                  <span class="visually-hidden">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-bs-slide="next">
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <!-- <span class="visually-hidden">Next</span> -->
+                  <span class="visually-hidden">Next</span>
                 </a>
               </div>
         </div>
@@ -404,6 +416,14 @@
 
     <!-- Initialize Firebase -->
     <script src="/__/firebase/init.js"></script>
+
+    <script language="JavaScript" type="text/javascript">
+        $(document).ready(function(){
+          $('.carousel').carousel({
+            interval: 2000
+          })
+        });    
+      </script>
 </body>
 
 </html>
