@@ -10834,7 +10834,9 @@ a.text-dark:focus {
 }
 
 .text-white-50 {
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(255, 255, 255, 1.0) !important;
+  font-size: 18px;
+  font-family: sans-serif;
 }
 
 .text-hide {
@@ -11081,11 +11083,11 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/YOUDID\ \(2\)-min1-min.png");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/New\ Logo.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: cover;
+  background-size: contain ;
 }
 
 header.masthead h1 {
@@ -11182,4 +11184,21 @@ header.masthead h1 {
 
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
+}
+
+#logoNav{
+  margin-right: 15pt; 
+  width: 70pt; 
+  height: 70pt;
+}
+
+@media only screen and (max-width: 480px){
+  #logoNav{
+    margin-right: 15pt; 
+    margin-left: 15pt; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 30pt; 
+    height: 30pt;
+  }
 }
