@@ -11150,7 +11150,7 @@ header.masthead h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: #F8C73E;
+  background: rgb(248,199,62, 0.75);
   transition: opacity 0.25s ease;
   text-align: center;
 }
